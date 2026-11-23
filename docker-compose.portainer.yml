@@ -41,7 +41,7 @@ services:
       - 5080:80
     volumes:
       - public:/var/www/html/
-
+      
 volumes:
   public:
   db:
